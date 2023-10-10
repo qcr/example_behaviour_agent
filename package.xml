@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Created with QCR's code template tool: https://github.com/qcr/code_templates -->
+
+<package format="2">
+  <name>example_behaviour_agent</name>
+  <version>0.1.0</version>
+  <description>The example_behaviour_agent package</description>
+
+  <maintainer email="dasun.gunasinghe@qut.edu.au">Das</maintainer>
+
+  <license>BSD</license>
+  
+  <!-- Use build_depend for packages you need at compile time: -->
+  <build_depend>message_generation</build_depend>
+  <!-- Use build_export_depend for packages you need in order to build against this package: -->
+  <build_export_depend>message_generation</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <depend>ros_trees</depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
